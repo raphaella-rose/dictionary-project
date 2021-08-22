@@ -1,4 +1,30 @@
+.dictionary-container {
+  background-color: var(--quaternary-color);
+  border-radius: 12px;
+  box-shadow: var(--box-shadow);
+  margin: 15px 80px;
+}
 .Dictionary .searchBar {
-  margin-top: 75px;
-  text-align: center;
+  border: 3px solid var(--secondary-color);
+  border-radius: 8px;
+  color: var(--primary-color);
+  display: block;
+  font-size: 20px;
+  padding: 8px 40px;
+  margin: 25px auto 10px;
+}
+.searchBar::placeholder {
+  color: var(--tertiary-color);
+  opacity: 40%;
+}
+.Dictionary {
+  font-family: var(--body-font);
+  padding: 5px;
+}
+.Dictionary section {
+  background-color: #eee;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  padding: 10px;
+  margin: 25px;
 }

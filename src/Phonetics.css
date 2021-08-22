@@ -1,0 +1,8 @@
+.Phonetics .phoneticWritten {
+  color: var(--secondary-color);
+  font-family: var(--body-font);
+  padding-left: 4px;
+}
+.Phonetics .phoneticAudio {
+  margin-top: 3px;
+}

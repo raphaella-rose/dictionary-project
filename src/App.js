@@ -5,12 +5,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-    <h1 className="text-center">
+    <h1 className="title">
       Dictionary
     </h1> 
     </header>
     <main>
-    <Dictionary />
+    <Dictionary defaultWord="Dachshund"/>
     </main>
     <footer>
       <div className="text-center">

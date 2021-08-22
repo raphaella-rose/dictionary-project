@@ -1,0 +1,18 @@
+.Synonyms .synonymHeading {
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 7px;
+  margin-left: 30px;
+}
+
+.Synonyms li {
+  border: 1px dotted var(--tertiary-color);
+  border-radius: 5px;
+  color: var(--primary-color);
+  display: inline-block;
+  font-size: 16px;
+  padding: 0 15px;
+  margin: 5px 15px;
+  text-align: center;
+}

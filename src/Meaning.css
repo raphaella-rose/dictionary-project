@@ -1,0 +1,9 @@
+.Meaning .definition {
+  color: var(--primary-color);
+  font-size: 18px;
+}
+.Meaning .example {
+  color: var(--primary-color);
+  margin: 5px 0 8px 25px;
+  opacity: 80%;
+}
