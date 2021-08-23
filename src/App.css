@@ -47,3 +47,13 @@
     text-align: center;
   }
 }
+@media (max-width: 426px) {
+  .App header {
+    border-radius: 12px;
+    box-shadow: var(--box-shadow);
+    display: block;
+    margin: 25px 40px;
+    padding: 5px 7px;
+    text-align: center;
+  }
+}

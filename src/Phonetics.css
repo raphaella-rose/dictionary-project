@@ -11,3 +11,8 @@
     max-width: 200px;
   }
 }
+@media (max-width: 426px) {
+  .Phonetics .player {
+    max-width: 200px;
+  }
+}

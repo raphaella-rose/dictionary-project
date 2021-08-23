@@ -49,3 +49,24 @@
     margin: 15px;
   }
 }
+@media (max-width: 426px) {
+  .dictionary-container {
+    border-radius: 12px;
+    box-shadow: var(--box-shadow);
+    margin: 15px 30px;
+  }
+  .Dictionary .searchBar {
+    border: 3px solid var(--secondary-color);
+    border-radius: 8px;
+    display: block;
+    font-size: 11px;
+    padding: 8px 40px;
+    margin: 25px auto 10px;
+  }
+  .Dictionary section {
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    padding: 10px;
+    margin: 15px;
+  }
+}
