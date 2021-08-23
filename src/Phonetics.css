@@ -6,11 +6,7 @@
 .Phonetics .phoneticAudio {
   margin-top: 3px;
 }
-@media (max-width: 321px) {
-  .Phonetics .player {
-    max-width: 200px;
-  }
-}
+
 @media (max-width: 426px) {
   .Phonetics .player {
     max-width: 200px;

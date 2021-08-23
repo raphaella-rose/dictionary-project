@@ -1,9 +1,9 @@
 .Example {
   color: var(--primary-color);
-  margin: 5px 0 8px 25px;
+  margin: 5px 0 8px 20px;
   opacity: 80%;
 }
-@media (max-width: 321px) {
+@media (max-width: 426px) {
   .Example {
     color: var(--primary-color);
     margin: 5px 0 8px 0px;
