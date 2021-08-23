@@ -7,6 +7,6 @@
   .Example {
     color: var(--primary-color);
     margin: 5px 0 8px 0px;
-    opacity: 80%;
+    opacity: 100%;
   }
 }
