@@ -10,7 +10,7 @@ function App() {
     </h1> 
     </header>
     <main>
-    <Dictionary defaultWord="Dachshund"/>
+    <Dictionary defaultWord="Sunset"/>
     </main>
     <footer>
       <div className="signature">

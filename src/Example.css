@@ -1,12 +1,12 @@
 .Example {
   color: var(--primary-color);
   margin: 5px 0 8px 20px;
-  opacity: 80%;
+  opacity: 0.8;
 }
-@media (max-width: 426px) {
+@media (max-width: 321px) {
   .Example {
     color: var(--primary-color);
     margin: 5px 0 8px 0px;
-    opacity: 100%;
+    opacity: 0.8;
   }
 }
