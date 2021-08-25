@@ -15,7 +15,7 @@
 }
 .searchBar::placeholder {
   color: var(--tertiary-color);
-  opacity: 40%;
+  opacity: 0.4;
 }
 .Dictionary {
   font-family: var(--body-font);
