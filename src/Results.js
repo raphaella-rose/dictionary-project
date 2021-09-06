@@ -10,13 +10,13 @@ return (<div className="Results">
 <h2 className="keyword">
 {props.results.word}
 </h2>
-{props.results.phonetics.map(function(phonetic, index) {
+{props.results.phonetics.map((phonetic, index) => {
 return <div key={index}>
   <Phonetics phonetics={phonetic}/>
   </div>
 })}
 </section>
-{props.results.meanings.map(function(meaning, index) {
+{props.results.meanings.map((meaning, index) => {
  return <section key={index}>
    <Meaning meaning={meaning} />
    </section>

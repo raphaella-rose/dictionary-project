@@ -11,8 +11,6 @@ const [ready, setReady] = useState(false);
 const [results, setResults] = useState(null);
 const [photos, setPhotos] = useState(null);
 
-
-
 function handleDictionaryResponse(response) {
 setResults(response.data[0]);
 setReady(true);
